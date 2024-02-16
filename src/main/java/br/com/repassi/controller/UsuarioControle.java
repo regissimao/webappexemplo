@@ -20,7 +20,7 @@ public class UsuarioControle {
 	
 	@GetMapping(path="/todos")
 	public @ResponseBody Iterable<Usuario> getTodosUsuarios() {
-	  // This returns a JSON or XML with the users
+	  // This returns a JSON or XML with the usuarios
 	  return usuarioRepositorio.findAll();
 	}
 	
