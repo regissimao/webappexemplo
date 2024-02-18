@@ -1,5 +1,7 @@
 package br.com.repassi.domain;
 
+import java.util.Date;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,6 +18,10 @@ public class Usuario {
 	private Integer id;
 
 	private String nome;
+	
+	private String email;
+	
+	private Date dataNascimento;
 	
 	public Usuario() {}
 }
