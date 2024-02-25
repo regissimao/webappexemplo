@@ -1,0 +1,9 @@
+.conteiner-usuario {
+  display: flex;
+  width: 100%;
+}
+
+.linha-usuario {
+  height: 30px;
+  flex-grow: 1;
+}

@@ -1,0 +1,16 @@
+<div class="conteiner-usuario">
+  <div class="linha-usuario">{{usuario.id}}</div>
+  <div class="linha-usuario">{{usuario.nome}}</div>
+  <div class="linha-usuario">{{usuario.email}}</div>
+  <div class="linha-usuario">{{usuario.dataNascimento}}</div>
+  <div class="linha-usuario">
+    <a class="button" href="/alterar-usuario" [routerLink]="['/alterar-usuario', usuario.id]">
+      Alterar
+    </a>
+  </div>
+  <div class="linha-usuario">
+    <a class="button" href="/alterar-usuario" (click)="removerUsuario()">
+      Excluir
+    </a>
+  </div>
+</div>

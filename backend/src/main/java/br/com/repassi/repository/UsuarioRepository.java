@@ -4,6 +4,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import br.com.repassi.domain.Usuario;
 
-public interface UsuarioRepositorio extends CrudRepository<Usuario, Integer> {
+public interface UsuarioRepository extends CrudRepository<Usuario, Integer> {
     //TESTE2
 }

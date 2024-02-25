@@ -1,1 +1,2 @@
-<p>listar-usuarios works!</p>
+<p>Lista de Usuarios</p>
+<app-linha-usuario  *ngFor="let usuario of usuarios" [usuario]="usuario" (excluirUsuario)="removerUsuario($event)"></app-linha-usuario>
